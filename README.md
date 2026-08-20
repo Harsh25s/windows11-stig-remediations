@@ -9,7 +9,7 @@ verifies the result before exiting.
 | # | STIG-ID | Control | Registry value |
 |---|---------|---------|----------------|
 | 1 | WN11-AU-000500 | Application event log ≥ 32 MB | `MaxSize = 32768` |
-| 2 | WN11-AU-000505 | Security event log ≥ 1 GB | `MaxSize = 1024000` |
+| 2 | WN11-CC-000038 | WDigest Authentication disabled | `UseLogonCredential = 0` |
 | 3 | WN11-AU-000510 | System event log ≥ 32 MB | `MaxSize = 32768` |
 | 4 | WN11-CC-000005 | Camera disabled on lock screen | `NoLockScreenCamera = 1` |
 | 5 | WN11-CC-000180 | AutoPlay off for non-volume devices | `NoAutoplayfornonVolume = 1` |
